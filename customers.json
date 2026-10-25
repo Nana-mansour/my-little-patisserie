@@ -1,0 +1,44 @@
+[
+    {
+        "id":1,
+        "Name":"Nana",
+        "city":"Marrakech",
+        "active":true
+    },
+
+    {
+        "id":2,
+        "Name":"Diza",
+        "city":"Marrakech",
+        "active":true
+    },
+
+    {
+        "id":3,
+        "Name":"Souleymane",
+        "city":"Tanger",
+        "active":true
+    },
+
+    {
+        "id":4,
+        "Name":"Ibrahim",
+        "city":"Rabat",
+        "active":true
+    },
+
+    {
+        "id":5,
+        "Name":"Momo",
+        "city":"casa",
+        "active":true
+    },
+
+    {
+        "id":6,
+        "Name":"Mariam",
+        "city":"Rabat",
+        "active":true
+    }
+
+]

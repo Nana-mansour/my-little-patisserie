@@ -1,0 +1,64 @@
+#logo{
+       background-color: rgba(154, 176, 195, 0.758);
+}
+body{
+    background-image: url('background1.jpe') ;
+    background-position: center;
+    background-size: contain;
+    
+
+}
+
+#rech{
+   background-color: rgba(240, 248, 255, 0.308);
+   width: 350px;
+}
+#listes{
+    background-image: url('menu5.jpe');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 15px;
+    display: block;
+    border-radius:10px ;
+    border-color: rgba(187, 215, 239, 0.808);
+    font-family: dancing script;
+   padding: 5px;
+    margin-bottom: 10px;
+   
+
+    
+
+
+}
+
+.carte{
+    margin-left: 15px;
+    border-style:double;
+    margin-bottom: 10px;
+    border-color: rgb(86, 101, 114);
+    border-radius: 6px;
+   background-color: rgba(240, 248, 255, 0.523);
+   padding: 10px;
+}
+   
+   
+legend{
+    text-align: center;
+    text-shadow: 2px 0px 2px rgb(255, 254, 240);
+}
+tr{
+    background-color: rgb(141, 153, 164);
+}
+
+h3{
+    font-family: dancing script;
+    color: rgb(56, 74, 88);
+}
+.grand{
+    font-size: 24px;
+}
+
+
+
+   
+ 

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>my little patisserie</title>
+
+        <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+        <link href="style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&display=swap" rel="stylesheet">
+
+
+    </head>
+    <body>
+        
+
+        <head class="col-md-2">
+            <h3 id="logo" class="logo">My little patisserie</h3>
+        </head>
+
+        <div class="col-md-6 row"  id="listes">
+           
+
+
+        <p class="grand">les patisseries:</p>
+        
+            <p>gâteau au chocolat</p>
+             <p>mille feuille</p>
+              <p>fraisier</p>
+               <p>cheese cake</p>
+                <p>éclaire au chocolat</p>
+        
+
+        <p class="grand">les Boissons:</p>
+        
+            <p>panaché</p>
+             <p>smoothie</p>
+              <p>chocolat chaud</p>
+              
+      
+
+         <p class="grand">les glaces:</p>
+       
+            <p>chocolat</p>
+             <p>fraise</p>
+              <p>vanille</p>
+              
+       
+        </div>
+
+         <section class="row">
+        <div class="col-md-3">
+        <div class="stat-card carte">
+            <p>commande</p>
+            <h3 id="reserv">0</h3>
+
+
+        </div>
+        </div>
+
+        <div class="col-md-3">
+        <div class="stat-card carte">
+            <p>livree</p>
+            <h3 id="conf">0</h3>
+
+
+        </div>
+        </div>
+
+        <div class="col-md-3">
+        <div class="stat-card carte">
+            <p>annulée</p>
+            <h3 id="annulee">0</h3>
+
+
+        </div>
+        </div>
+
+        <div class="col-md-3">
+        <div class="stat-card carte">
+            <p>total</p>
+            <h3 id="total">0</h3>
+</div>
+        </div>
+
+        <section>
+            <input type="text" id="rech" class="form-control col-md-2" placeholder="ex:Aïcha">
+        </section>
+
+        <section>
+            <button class=" btn col-md-2 statut" data-status="toutes">Toutes</button>
+            <button class="btn btnAll col-md-2 statut" data-status="Livree">Livree</button>
+            <button class="btn btnAll col-md-2 statut" data-status="En attente">En attente</button>
+            <button class="btn btnAll col-md-2 statut" data-status="Annulee">Annulee</button>
+            <button class="btn btnAll col-md-2 categorie" data-categorie="Pâtisserie">pâtisseries</button>
+            <button class="btn btnAll col-md-2 categorie" data-categorie="Boisson">smooties</button>
+             <button class="btn btnAll col-md-2 categorie" data-categorie="Glace">glaces</button>
+        </section>
+
+        <p id="erreur"></p>
+
+        <table class="col-md-1 table">
+            <legend>table des commandes</legend>
+
+            <tr class="col-md-1">
+                <th class="p-2">iidCom</th>
+                <th class="p-2">nom</th>
+                <th class="p-2">produit</th>
+                <th class="p-2">categorie</th>
+                <th class="p-2">prix</th>
+                <th class="p-2">date</th>
+                <th class="p-2">statut</th>
+                <th class="p-2">plus</th>
+            
+            </tr>
+             <tbody class="col-md-2" id="table"></tbody>
+        </table>
+
+        <section id="detail"></section>
+  
+
+      <script type="module" src="app.js"></script>
+
+    </body>
+</html>
